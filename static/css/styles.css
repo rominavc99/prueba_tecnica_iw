@@ -1,0 +1,45 @@
+.bodyMain{
+background-image: url(../img/bgplant.jpg);
+background-size: cover;
+}
+
+.bodySecondary {
+    background-color: rgb(239, 239, 239);
+}
+
+.bodyIndex{
+    background-color: rgb(239, 239, 239);
+}
+
+.messages {
+    margin-bottom: 1em;
+}
+
+.alert {
+    padding: 0.75em 1.25em;
+    margin-bottom: 1em;
+    border: 1px solid transparent;
+    border-radius: 0.25em;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.nav-hover-effect {
+    transition: background-color 0.3s, color 0.3s;
+    /* Transición suave */
+}
+
+.nav-hover-effect:hover {
+    background-color: #7ea459;
+    /* Cambia a un color de fondo azul oscuro */
+    color: #ffffff;
+    /* Cambia el color del texto a blanco */
+}
+
+.active{
+    background-color: #7ea459;
+}
